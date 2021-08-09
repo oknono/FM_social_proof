@@ -1,0 +1,27 @@
+:root {
+    box-sizing: border-box;
+    --color-primary: hsl(300, 43%, 22%);
+    --color-secondary: hsl(333, 80%, 67%);
+    --color-neutral-light: hsl(0, 0%, 100%);
+    --color-neutral-medium: hsl(300, 24%, 96%);
+    --color-neutral-dark: hsl(303, 10%, 53%);
+    --color-bg: var(--color-neutral-light);
+    --color-text: var(--color-neutral-dark);
+    --color-title: var(--color-primary);
+    --color-bg-star-card: var(--color-neutral-medium);
+    --color-text-star-card: var(--color-title);
+    --color-bg-review-card: var(--color-primary);
+    --color-title-review-card: var(--color-text);
+    --color-subtitle-review-card: var(--color-secondary);
+    --font-size: 15px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: var(--color-text);
+    font-family: 'Spartan', sans-serif;
+    font-size: var(--font-size);
+}
